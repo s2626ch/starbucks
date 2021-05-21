@@ -1,0 +1,48 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	transition: 1s;
+}
+
+.box:hover{
+	width: 300px;
+	background-color: royalblue;
+}
+
+.box:active{
+	background-color: seagreen;
+}
+
+.box::before{
+	content: "앞!";
+}
+
+.box::after{
+	content: ""; 
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: rosybrown;
+	
+}
+
+.box:focus{
+	background-color: black;
+}
+
+input:focus{
+	background: springgreen;
+}
+
+.hello{
+	color: red;
+}
+
+div{
+	font-size: 70px;
+}
+
+#hello {
+	color: blue;
+}
